@@ -16,8 +16,8 @@ public class CartPage extends BasePage {
     }
 
     public void openPage() {
-        //      driver.get("https://www.saucedemo.com/cart.html");
-        driver.findElement(By.id("shopping_cart_container")).click();
+              driver.get("https://www.saucedemo.com/cart.html");
+//        driver.findElement(By.id("shopping_cart_container")).click();
     }
 
     public String productList() {
